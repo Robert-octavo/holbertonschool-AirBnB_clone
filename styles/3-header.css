@@ -8,10 +8,24 @@ header {
 .div_container {
     position: relative;
 }
-.div_center {
+
+.logo {
+    background-image: url("../images/logo.png");
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-0%);
+    transform: translateY(9%);
+    height: 60px;
+    width: 140px;
+}
+
+/*.logo2 {
+    background-image: url("../images/logo.png");
     margin-left: 20px;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-0%);
     transform: translateY(9%);
 }
+*/
