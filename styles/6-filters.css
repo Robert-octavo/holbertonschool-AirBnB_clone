@@ -55,11 +55,13 @@ h4 {
 .popover {
     width: 83.7%;
     background-color: #FAFAFA;
+    /*background-color: red;*/
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     padding-bottom: 10%;
     line-height: normal;
     display: none;
+    z-index: 1;
 }
 
 #padding_amenities {
@@ -80,8 +82,10 @@ h2 {
 
 div.locations:hover ul {
     display: block;
+    visibility: visible;
 }
 
 div.amenities:hover ul {
     display: block;
+    visibility: visible;
 }
