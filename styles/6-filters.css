@@ -60,7 +60,8 @@ h4 {
     border-radius: 4px;
     padding-bottom: 10%;
     line-height: normal;
-    display: none;
+    display: block;
+    visibility: hidden;
     z-index: 1;
 }
 
