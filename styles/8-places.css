@@ -98,16 +98,19 @@
     background-image: url(/images/icon_group.png);
     height: 50px;
     width: 50px;
+    margin-top: 4px;
 }
 
 .rooms_icon {
     background-image: url(/images/icon_bed.png);
     height: 50px;
     width: 50px;
+    margin-top: 4px;
 }
 
 .bathrooms_icon {
     background-image: url(/images/icon_bath.png);
     height: 50px;
-    width: 50px;    
+    width: 50px; 
+    margin-top: 4px;   
 }
