@@ -1,12 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
 body {
     padding: 0px;
     margin: 0px;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     color: #484848;
+    height: 250%;
+    /*overflow-y: scroll;
+    scroll-behavior: smooth;*/
 }
 
 .container {
     max-width: 1000px;
     margin: 30px auto;
 }
+
+
+
