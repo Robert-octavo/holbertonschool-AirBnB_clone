@@ -63,6 +63,7 @@ h4 {
     display: block;
     visibility: hidden;
     z-index: 1;
+    position: relative;
 }
 
 #padding_amenities {
@@ -81,12 +82,12 @@ h2 {
     font-size: 16px;
 }
 
-div.locations:hover ul {
+div.locations:hover .popover {
     display: block;
     visibility: visible;
 }
 
-div.amenities:hover ul {
+div.amenities:hover .popover {
     display: block;
     visibility: visible;
 }
